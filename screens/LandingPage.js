@@ -5,23 +5,15 @@ import {
   View,
   TouchableOpacity,
   StyleSheet,
-  TextInput,
   Image,
   Switch,
   Animated,
-  Easing,
   SafeAreaView,
 } from 'react-native';
-import { createAppContainer } from 'react-navigation';
-import { createBottomTabNavigator } from 'react-navigation-tabs';
-import { AppLoading } from 'expo-app-loading';
 import { LinearGradient } from 'expo-linear-gradient';
 import { useFonts } from '@use-expo/font';
-import LottieView from 'lottie-react-native';
-import Play from './Play';
 import '@react-navigation/native';
 import '@fortawesome/free-regular-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-native-fontawesome';
 import db from '../config';
 
 const LandingPage = (props) => {
